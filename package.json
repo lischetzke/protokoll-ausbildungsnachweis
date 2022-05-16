@@ -26,7 +26,13 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "indent": ["warn", "tab"],
+      "no-unused-vars": ["warn"],
+      "no-var": ["warn"],
+      "one-var": ["off"]
+    }
   },
   "browserslist": {
     "production": [
